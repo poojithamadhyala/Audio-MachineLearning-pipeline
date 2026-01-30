@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Data
+data/raw/
+data/*.tar.gz
+
+# Models (optional: keep ONNX, ignore training checkpoints if you want)
+models/*.pt
+
+# OS
+.DS_Store

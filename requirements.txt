@@ -1,0 +1,11 @@
+numpy
+soundfile
+librosa
+torch
+fastapi
+uvicorn
+python-multipart
+scikit-learn
+tqdm
+matplotlib
+
