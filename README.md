@@ -29,3 +29,33 @@ This project demonstrates how to design an **ML pipeline optimized for such cons
 
 ## 🏗️ Project Architecture
 
+
+audio-ml-pipeline/
+├── src/ # Training, evaluation, ONNX export, benchmarking
+├── api/ # FastAPI inference service
+├── models/ # Trained model, ONNX export, confusion matrix
+├── data/ # Dataset (excluded from repo)
+├── requirements.txt
+├── download_data.py
+└── README.md
+
+---
+
+## 📊 Model & Performance
+
+- **Model**: MFCC feature extractor + lightweight CNN
+- **Classes**: `speech`, `noise`, `silence`
+- **Test Accuracy**: ~93.8%
+- **ONNX Inference Latency**: **0.039 ms (batch=1)**
+
+Confusion matrix is available in `models/confusion_matrix.png`.
+
+---
+
+## 🏃‍♂️ How to Run
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
+
