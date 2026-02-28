@@ -1,4 +1,4 @@
-# 🎧 Low-Latency Audio Machine Learning Pipeline
+#  Low-Latency Audio Machine Learning Pipeline
 
 A production-style **audio event classification pipeline** designed for **real-time, low-latency inference**, inspired by on-device audio use cases such as **headphones and smart audio systems**.
 
@@ -6,7 +6,7 @@ This project covers the **entire applied ML lifecycle** — from dataset ingesti
 
 ---
 
-## 🚀 Key Highlights
+##  Key Highlights
 
 - 🎵 **Audio Event Classification** using MFCC features + lightweight CNN  
 - ⚡ **Ultra-low latency inference**: **0.039 ms (batch=1)** via ONNX Runtime  
@@ -16,7 +16,7 @@ This project covers the **entire applied ML lifecycle** — from dataset ingesti
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Real-time audio systems (e.g., headphones, wearables, embedded devices) require:
 - Extremely **low inference latency**
@@ -27,7 +27,7 @@ This project demonstrates how to design an **ML pipeline optimized for such cons
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 
 audio-ml-pipeline/
@@ -41,7 +41,7 @@ audio-ml-pipeline/
 
 ---
 
-## 📊 Model & Performance
+##  Model & Performance
 
 - **Model**: MFCC feature extractor + lightweight CNN
 - **Classes**: `speech`, `noise`, `silence`
